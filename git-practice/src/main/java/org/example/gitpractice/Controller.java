@@ -13,4 +13,8 @@ public class Controller {
         return "Nazim Ahmad";
     }
 
+    @GetMapping("/about")
+    public String about() {
+        return "About Git";
+    }
 }
