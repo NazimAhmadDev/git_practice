@@ -12,4 +12,9 @@ public class MacController {
     public String myName() {
         return "My name is mac";
     }
+
+    @GetMapping("/education")
+    public String eudcation() {
+        return "Chitkara University";
+    }
 }
